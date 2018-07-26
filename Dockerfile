@@ -1,4 +1,4 @@
-FROM node:8.9.0@sha256:191a3b81eb1ffc4a478fed6f98631ce9fc24aff55cd13a77a44946c15b7351cc
+FROM node:8.11.3@sha256:deb6287c3b94e153933ed9422db4524d2ee41be00b32c88a7cd2d91d17bf8a5e
 RUN something
-FROM node:8.9.0-alpine@sha256:191a3b81eb1ffc4a478fed6f98631ce9fc24aff55cd13a77a44946c15b7351cc
+FROM node:8.11.3-alpine@sha256:d3ecde67a30db99d10a32173cc2fee8766bb42430feb2f819179c8dcf494dac1
 RUN something else
